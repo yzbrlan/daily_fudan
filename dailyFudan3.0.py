@@ -117,8 +117,8 @@ class Fudan:
         self.session.close()
         print("◉关闭会话")
         print("************************")
-        input("回车键退出")
-        sys_exit()
+        # input("回车键退出")
+        exit(0)
 
 class Zlapp(Fudan):
     last_info = ''
